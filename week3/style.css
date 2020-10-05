@@ -25,37 +25,11 @@ li>a
 	border: 2px solid black;
 	margin-bottom: 2px;
 }
-@media(max-width:700px )
-{
-	.col-sm-12
-	{
-		float:left;
-		width:100%;
-	}
-}
-@media(min-width:701px) and (max-width: 900px)
-{
-	.col-md-6
-	{
-		float: left;
-		width:50%;
-	}
-}
-@media(min-width: 901px) and (max-width: 1199px)
-{
-	.col-lg-4
-	{
-		float-left;
-		width: 33.33%;
-	}
-}
-@media(min-width: 1200px)
+@media(min-width: 1201px)
 {
 	.col-xl-12
 	{
 		float:left;
-		width:100%;
+		width: 100%;
 	}
 }
-
-
