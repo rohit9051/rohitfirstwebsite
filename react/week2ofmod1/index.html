@@ -83,11 +83,76 @@ body{
                     <img src='https://drive.google.com/thumbnail?id=1BqAOrlxnFxOO8aA8pOwf3SVDZ2xHC14a' class='img-fluid'>
                 </div>
                 <div class='col-lg-3 col-sm-10 align-self-center'>
-                    <a type="button" class="btn btn-primary btn-lg bg-danger" href='#man'>Reserve Table</a>
+                    <a type="button" class="btn btn-primary btn-lg bg-danger" href='#loginModal'>Reserve Table</a>
                 </div>
             </div>
         </div>
     </header>
+
+
+    <!--Modal Form-->
+    <div class='modal fade' role='dialog' id='loginModal'>
+        <div class='modal-dialog modal-lg' role='content'>
+            <div class='modal-content'>
+            <div class='modal-header'>
+                <h4 class='modal-title'>Reserve a Table</h4>
+                <button type='button' class='close' data-dismiss='modal'>&times;</button>
+            </div>
+            <div class='modal-body'>
+                <form >
+                    <div class='form-group row ml-1 mr-1'>
+                            <label for='noOfguests' class='col-md-2 col-form-label'>Number Of Guests</label>
+                            <div class='col-md-10 form-radio'>
+                                <input type="radio" class="form-radio-input" name="approve" id="approve" value="">
+                                <label class="form-radio-label" for="approve">1
+                                </label>
+                                <input type="radio" class="form-radio-input" name="approve" id="approve" value="">
+                                <label class="form-radio-label" for="approve">2
+                                </label>
+                                <input type="radio" class="form-radio-input" name="approve" id="approve" value="">
+                                <label class="form-radio-label" for="approve">3
+                                </label>
+                                <input type="radio" class="form-radio-input" name="approve" id="approve" value="">
+                                <label class="form-radio-label" for="approve">4
+                                </label>
+                                <input type="radio" class="form-radio-input" name="approve" id="approve" value="">
+                                <label class="form-radio-label" for="approve">5
+                                </label>
+                                <input type="radio" class="form-radio-input" name="approve" id="approve" value="">
+                                <label class="form-radio-label" for="approve">6
+                                </label>
+                            </div>
+                    </div>
+                    <div class='row form-group ml-1 mr-1'>
+                            <label for='datetime' class='col-md-2 col-form-label'>Date and Time</label>
+                                <div class='col-md-4'>
+                                    <input type="text" class='form-control' id='date' name='date' placeholder="Date">
+                                </div>
+                                <div class='col-md-4'>
+                                    <input type="text" class='form-control' id='time' name='time' placeholder="Time">
+                                </div>
+                    </div>
+                    <div class="form-group row mr-1 ml-1">
+                        <div class="col-md-10 offset-lg-2">
+                            <button type="submit" class="btn btn-primary">Reserve</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
 
     <div class='container'>
         <div class='row row-content align-items-center'>
