@@ -59,7 +59,7 @@ body{
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src='https://drive.google.com/thumbnail?id=1BqAOrlxnFxOO8aA8pOwf3SVDZ2xHC14a' height="30" width="41"></a>
+                <a class="navbar-brand" href="#"><img src='img/logo.png' height="30" width="41"></a>
             <div class='collapse navbar-collapse' id='Navbar'>
                 <ul class='navbar-nav mr-auto'>
                     <li class="nav-item active"><a class="nav-link" href='index.html'><span class='fa fa-home fa-lg'></span></span>Home</a></li>
@@ -67,30 +67,14 @@ body{
                     <li class="nav-item"><a class="nav-link" href='#'><span class='fa fa-list fa-lg'></span>Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href='contactus.html'><span class='fa fa-address-card fa-lg'></span>Contact</a></li>
                 </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal">
+                        <span class="fa fa-sign-in"></span>Login</a>
+                </span>
             </div>
         </div>
     </nav>
-    
 
-    <header class='jumbotron'>
-        <div class='container'>
-            <div class='row row-header'>
-                <div class='col-lg-6 col-sm-12'>
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div class='col-lg-3 col-sm-12 align-self-center'>
-                    <img src='https://drive.google.com/thumbnail?id=1BqAOrlxnFxOO8aA8pOwf3SVDZ2xHC14a' class='img-fluid'>
-                </div>
-                <div class='col-lg-3 col-sm-10 align-self-center'>
-                    <a type="button" class="btn btn-primary btn-lg bg-danger" href='#loginModal'>Reserve Table</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <!--Modal Form-->
     <div class='modal fade' role='dialog' id='loginModal'>
         <div class='modal-dialog modal-lg' role='content'>
             <div class='modal-content'>
@@ -147,12 +131,65 @@ body{
 
 
 
+    <!--
 
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+!-->
+<!--end of modal-->
 
-
-
-
-
+    <header class='jumbotron'>
+        <div class='container'>
+            <div class='row row-header'>
+                <div class='col-lg-6 col-sm-12'>
+                    <h1>Ristorante con Fusion</h1>
+                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                </div>
+                <div class='col-lg-3 col-sm-12 align-self-center'>
+                    <img src='img/logo.png' class='img-fluid'>
+                </div>
+                <div class='col-lg-3 col-sm-10 align-self-center'>
+                    <a type="button" class="btn btn-block nav-link bg-warning" 
+                    data-toggle='modal'
+                    href='#loginModal'>Reserve Table</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <div class='container'>
         <div class='row row-content align-items-center'>
@@ -161,7 +198,7 @@ body{
             </div>
             <div class='col-12 col-sm order-sm-first col-md'>
                 <div class='media'>
-                    <img class='d-flex mr-3 img-thumbnail align-self-center' src="https://drive.google.com/thumbnail?id=1Ou4luykrhMjGtJ39DhKEcrovpwGaTjow" alt='uthappizza'>
+                    <img class='d-flex mr-3 img-thumbnail align-self-center' src="img/uthappizza.png" alt='uthappizza'>
                     <div class='media-body'> 
                         <h2 class='mt-0'>Uthappizza <span class='badge badge-danger'> HOT </span> <span class='badge badge-pill badge-secondary'> $4.99 </span></h2>
                         <p class='d-none d-sm-block'>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
@@ -181,7 +218,7 @@ body{
             </div>
             <div class='col-lg-3 col-sm-5 col-md-3'>
                 <div class='media'>
-                    <img src='https://drive.google.com/thumbnail?id=1n9gduZQxSTeVUI0yOtceWOiii7gD_C2Z' alt='buffet' class='d-flex align-self-center img-thumbnail'>
+                    <img src='img/buffet.png' alt='buffet' class='d-flex align-self-center img-thumbnail'>
                 </div>
             </div>
         </div>
@@ -192,7 +229,7 @@ body{
             </div>
             <div  class='col-12 col-sm  order-sm-first col-md'>
                 <div class="media">
-                    <img src='https://drive.google.com/thumbnail?id=1wAu_fzg-s-ux5rjWVgYpu1uBEFBO5V89' alt='alberto' class='d-flex mr-3 img-thumbnail align-self-center'>
+                    <img src='img/alberto.png' alt='alberto' class='d-flex mr-3 img-thumbnail align-self-center'>
                     <div class='media-body'>
                         <h2 class='mt-0'>Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
@@ -206,7 +243,7 @@ body{
             <div class='col-8 offset-2'>
                 <div class='card' id='man'>
                     <h3 class='card-header bg-primary text-white'>Reserve a Table</h3>
-                    <div class='card body mt-0'>
+                    <div class='card-body mt-0'>
                     <form >
                         <div class='form-group row ml-1 mr-1'>
                                 <label for='noOfguests' class='col-md-2 col-form-label'>Number Of Guests</label>
@@ -253,6 +290,70 @@ body{
         </div>
     </div>
 
+    <div class='row row-content'>
+        <div class='col-12'>
+            <h2>Corporate Leadership</h2>
+            <div id='accordion'>
+                <div class='card'>
+                    <div class='card-header' role='tab' id='peterhead'>
+                        <h3 class='mb-0'>
+                            <a data-toggle="collapse" data-target="#peter1">Peter Pan<small>Chief Epicurious Officer</small>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class='collapse show' id='peter1' data-parent='#accordion'>
+                        <div class='card-body'>
+                            <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="dannyhead">
+                    <h3 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-target="#danny1">
+                        Dhanasekaran Witherspoon <small>Chief Food Officer</small>
+                        </a>
+                    </h3>
+                </div>
+                <div class="collapse" id="danny1" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    <div class="card-header" role="tab" id="agumbehead">
+                    <h3 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-target="#agumbe1">
+                        Agumbe Tang <small>Chief Taste Officer</small>
+                        </a>
+                    </h3>
+                </div>
+                <div class="collapse" id="agumbe1" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    <div class="card-header" role="tab" id="albertohead">
+                    <h3 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-target="#alberto1">
+                        Alberto Somayya <small>Executive Chef</small>
+                        </a>
+                    </h3>
+                </div>
+                <div class="collapse" id="alberto1" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
+                    </div>
+                </div>
+            </div>
+               
+        </div>
+    </div>
+    </div>
+
     <footer class='container footer'>
         <div class='row'>
             <div class='col-4 offset-1 col-sm-2'>             
@@ -296,6 +397,12 @@ body{
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 
 </body>
 
